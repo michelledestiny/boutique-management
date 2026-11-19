@@ -1,0 +1,55 @@
+:root {
+  font-family: 'Aptos', 'Segoe UI', sans-serif;
+  color: #332f37;
+  background: #f8f7f5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-primary: #8a45c4;
+  --color-primary-hover: #7035a4;
+  --color-sidebar: #211a29;
+  --color-background: #f8f7f5;
+  --color-surface: #fffefc;
+  --color-line: #e9e5df;
+  --color-accent: #a873ce;
+  --color-accent-light: #e8dcf1;
+  --color-glow: #cc91f1;
+  --color-purple-tint: #f5eff9;
+  --font-display: Georgia, 'Times New Roman', serif;
+  --font-body: 'Aptos', 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--color-glow);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: rgba(168, 115, 206, .18);
+  color: var(--color-primary-hover);
+}
